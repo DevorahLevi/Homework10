@@ -24,9 +24,9 @@ public class PersonSortable extends Person implements Comparable<PersonSortable>
             if (gender != otherGender) //gender is not the same
             {
                 if (gender == Gender.FEMALE) {
-                    compare = 1;
-                } else {
                     compare = -1;
+                } else {
+                    compare = 1;
                 }
             } else { //gender is the same
                 compare = name.getLastName().compareTo(otherName.getLastName());
