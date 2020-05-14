@@ -8,7 +8,8 @@ public class Person {
 
     public enum Gender {MALE, FEMALE}
 
-    public Person(Name name, Gender gender) {
+    public Person(Name name, Gender gender)
+    {
         this.name = name;
         this.gender = gender;
     }
