@@ -46,9 +46,9 @@ public class SortPersonComparator
                 Name person1Name = person1.getName(), person2Name = person2.getName();
 
                 if (person1Age < person2Age) {
-                    compare = -1;
-                } else if (person1Age > person2Age) {
                     compare = 1;
+                } else if (person1Age > person2Age) {
+                    compare = -1;
                 } else {  //age is the same
                     if (person1Gender != person2Gender) //gender is not the same
                     {

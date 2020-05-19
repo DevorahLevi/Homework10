@@ -17,9 +17,9 @@ public class PersonSortable extends Person implements Comparable<PersonSortable>
         Name name = getName(), otherName = otherPersonSortable.getName();
 
         if (age < otherAge) {
-            compare = -1;
+            compare = 1;
         } else if (age > otherAge) {
-           compare = 1;
+           compare = -1;
         } else {  //age is the same
             if (gender != otherGender) //gender is not the same
             {
